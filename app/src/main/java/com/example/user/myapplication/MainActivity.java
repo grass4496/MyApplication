@@ -1,5 +1,6 @@
 package com.example.user.myapplication;
 
+import android.content.res.ColorStateList;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -13,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Button btn;
         btn = (Button)findViewById(R.id.btn);
-        btn.setText("hi all");
+        btn.setText("hi all, end");
+        btn.setTextColor(ColorStateList.valueOf(155));
     }
 }
